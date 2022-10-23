@@ -60,7 +60,7 @@ sub NamesRgbTable() {
     while (my $line = <DATA>) {
       chomp($line);
       if ($line) {
-	my $rgb   = eval "0x" . substr($line, 0, 6);
+	my $rgb   = hex substr($line, 0, 6);
 #	die, unless ($rgb =~ /^\d+$/);
 	my $short = lc(substr($line, 8, 3)); $short =~ s/\s+$//;
 	my $long  = lc(substr($line, 11));   $long  =~ s/^\s+//;
@@ -296,4 +296,3 @@ CC3366 	MPR 	Medium Pink-Red
 FF3366 	LRP 	Light Red-Pink
 CC0033 	DRP 	Dark Red-Pink
 FF0033 	RRP 	Red-Red-Pink
-

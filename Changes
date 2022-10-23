@@ -1,5 +1,9 @@
 Change log for Graphics::ColorNames::VACCC:
 
+{{$NEXT}}
+  [Improvements]
+  - Removed use of eval, RT#59190
+
 1.02   26 Aug 2004
 	- corrected minor typo in POD
 
