@@ -1,6 +1,8 @@
 Change log for Graphics::ColorNames::VACCC:
 
 {{$NEXT}}
+
+1.03      2022-10-26 14:02:17+01:00 Europe/London
   [Improvements]
   - Removed use of eval, RT#59190
 
