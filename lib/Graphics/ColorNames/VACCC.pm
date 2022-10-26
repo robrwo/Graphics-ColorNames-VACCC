@@ -20,7 +20,7 @@ the L<Graphics::ColorNames> package.
 A description of this color scheme can be found at
 L<http://www.visibone.com/vaccc/>.
 
-=head1 append:AUTHOR
+=head1 append:CONTRIBUTOR
 
 =head2 Acknowledgements
 

@@ -44,6 +44,10 @@ feature.
 
 Robert Rothenberg <rrwo@cpan.org>
 
+# CONTRIBUTOR
+
+Spoon Reloaded <spoon.reloaded@gmail.com>
+
 ## Acknowledgements
 
 A while back I had received a request from somebody to implement this
@@ -54,10 +58,6 @@ that they upload a separate module to CPAN, but heard no reply.
 Afterwards I had lost the original E-mail.
 
 This version of the module was implemented separately.
-
-# CONTRIBUTOR
-
-Spoon Reloaded <spoon.reloaded@gmail.com>
 
 # COPYRIGHT AND LICENSE
 
