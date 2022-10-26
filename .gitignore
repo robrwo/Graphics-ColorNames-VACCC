@@ -1,0 +1,4 @@
+Graphics-ColorNames-VACCC-*/
+Graphics-ColorNames-VACCC-*.tar.gz
+.build/
+cpanfile.snapshot
