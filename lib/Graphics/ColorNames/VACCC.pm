@@ -1,8 +1,6 @@
 package Graphics::ColorNames::VACCC;
 
-=head1 NAME
-
-Graphics::ColorNames::VACCC - VisiBone Anglo-Centric Color Codes for Graphics::ColorNames
+# ABSTRACT: VisiBone Anglo-Centric Color Codes
 
 =head1 SYNOPSIS
 
@@ -22,9 +20,7 @@ the L<Graphics::ColorNames> package.
 A description of this color scheme can be found at
 L<http://www.visibone.com/vaccc/>.
 
-=head1 AUTHOR
-
-Robert Rothenberg <rrwo at cpan.org>
+=head1 append:AUTHOR
 
 =head2 Acknowledgements
 
@@ -36,12 +32,6 @@ that they upload a separate module to CPAN, but heard no reply.
 Afterwards I had lost the original E-mail.
 
 This version of the module was implemented separately.
-
-=head1 LICENSE
-
-Copyright (c) 2004 Robert Rothenberg. All rights reserved.
-This program is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself.
 
 =cut
 

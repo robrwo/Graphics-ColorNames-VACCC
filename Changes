@@ -4,6 +4,9 @@ Change log for Graphics::ColorNames::VACCC:
   [Improvements]
   - Removed use of eval, RT#59190
 
+  [Toolchain]
+  - Use Dist::Zilla to mint distribution.
+
 1.02   26 Aug 2004
 	- corrected minor typo in POD
 
