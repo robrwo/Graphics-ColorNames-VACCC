@@ -4,6 +4,9 @@ Change log for Graphics::ColorNames::VACCC:
   [Improvements]
   - Removed use of eval, RT#59190
 
+  [Other]
+  - Perltidied source code and remove commented-out dead code.
+
   [Toolchain]
   - Use Dist::Zilla to mint distribution.
 

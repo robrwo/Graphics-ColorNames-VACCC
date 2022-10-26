@@ -42,28 +42,29 @@ use warnings;
 
 our $VERSION = '1.03';
 
-my %RgbColors   = ( );
+my %RgbColors = ();
 
 sub NamesRgbTable() {
-  use integer;
-  unless (keys %RgbColors) {
-    while (my $line = <DATA>) {
-      chomp($line);
-      if ($line) {
-	my $rgb   = hex substr($line, 0, 6);
-#	die, unless ($rgb =~ /^\d+$/);
-	my $short = lc(substr($line, 8, 3)); $short =~ s/\s+$//;
-	my $long  = lc(substr($line, 11));   $long  =~ s/^\s+//;
-	$RgbColors{$short} = $rgb;
-	$RgbColors{$long}  = $rgb;
-	$long =~ s/\s+//g;
-	$RgbColors{$long}  = $rgb;
-	$long =~ s/\-//g;
-	$RgbColors{$long}  = $rgb;
-      }
+    use integer;
+    unless ( keys %RgbColors ) {
+        while ( my $line = <DATA> ) {
+            chomp($line);
+            if ($line) {
+                my $rgb = hex substr( $line, 0, 6 );
+                my $short = lc( substr( $line, 8, 3 ) );
+                $short =~ s/\s+$//;
+                my $long = lc( substr( $line, 11 ) );
+                $long =~ s/^\s+//;
+                $RgbColors{$short} = $rgb;
+                $RgbColors{$long}  = $rgb;
+                $long =~ s/\s+//g;
+                $RgbColors{$long} = $rgb;
+                $long =~ s/\-//g;
+                $RgbColors{$long} = $rgb;
+            }
+        }
     }
-  }
-  return \%RgbColors;
+    return \%RgbColors;
 }
 
 1;
